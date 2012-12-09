@@ -1,0 +1,99 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AR	Makefile	/^AR            = ar cqs$/;"	m
+CC	Makefile	/^CC            = gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS        = -pipe -O2 -Wall -W -D_REENTRANT $(DEFINES)$/;"	m
+CHK_DIR_EXISTS	Makefile	/^CHK_DIR_EXISTS= test -d$/;"	m
+CLEAR	videodevice.h	19;"	d
+COMPRESS	Makefile	/^COMPRESS      = gzip -9f$/;"	m
+COPY	Makefile	/^COPY          = cp -f$/;"	m
+COPY_DIR	Makefile	/^COPY_DIR      = $(COPY) -r$/;"	m
+COPY_FILE	Makefile	/^COPY_FILE     = $(COPY)$/;"	m
+CXX	Makefile	/^CXX           = g++$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS      = -pipe -O2 -Wall -W -D_REENTRANT $(DEFINES)$/;"	m
+DEFINES	Makefile	/^DEFINES       = -DQT_WEBKIT -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_SHARED$/;"	m
+DEL_DIR	Makefile	/^DEL_DIR       = rmdir$/;"	m
+DEL_FILE	Makefile	/^DEL_FILE      = rm -f$/;"	m
+DESTDIR	Makefile	/^DESTDIR       = $/;"	m
+DIST	Makefile	/^DIST          = \/usr\/share\/qt4\/mkspecs\/common\/unix.conf \\$/;"	m
+INCPATH	Makefile	/^INCPATH       = -I\/usr\/share\/qt4\/mkspecs\/linux-g++ -I. -I\/usr\/include\/qt4\/QtCore -I\/usr\/include\/qt4\/QtGui -I\/usr\/include\/qt4 -I. -I.$/;"	m
+INSTALL_DIR	Makefile	/^INSTALL_DIR   = $(COPY_DIR)$/;"	m
+INSTALL_FILE	Makefile	/^INSTALL_FILE  = install -m 644 -p$/;"	m
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = install -m 755 -p$/;"	m
+LFLAGS	Makefile	/^LFLAGS        = -Wl,-O1$/;"	m
+LIBS	Makefile	/^LIBS          = $(SUBLIBS)  -L\/usr\/lib\/i386-linux-gnu -lQtGui -lQtCore -lpthread $/;"	m
+LINK	Makefile	/^LINK          = g++$/;"	m
+MKDIR	Makefile	/^MKDIR         = mkdir -p$/;"	m
+MOVE	Makefile	/^MOVE          = mv -f$/;"	m
+OBJECTS	Makefile	/^OBJECTS       = main.o \\$/;"	m
+OBJECTS_DIR	Makefile	/^OBJECTS_DIR   = .\/$/;"	m
+PROCESSIMAGE_H	processImage.h	2;"	d
+ProcessImage	processImage.cpp	/^ProcessImage::ProcessImage(QWidget *parent):QWidget(parent)$/;"	f	class:ProcessImage
+ProcessImage	processImage.h	/^class ProcessImage : public QWidget$/;"	c
+QMAKE	Makefile	/^QMAKE         = \/usr\/bin\/qmake-qt4$/;"	m
+QMAKE_TARGET	Makefile	/^QMAKE_TARGET  = camer$/;"	m
+RANLIB	Makefile	/^RANLIB        = $/;"	m
+SED	Makefile	/^SED           = sed$/;"	m
+SOURCES	Makefile	/^SOURCES       = main.cpp \\$/;"	m
+STRIP	Makefile	/^STRIP         = strip$/;"	m
+SYMLINK	Makefile	/^SYMLINK       = ln -f -s$/;"	m
+TAR	Makefile	/^TAR           = tar -cf$/;"	m
+TARGET	Makefile	/^TARGET        = camer$/;"	m
+VIDEODEVICE_H	videodevice.h	2;"	d
+VideoDevice	videodevice.cpp	/^VideoDevice::VideoDevice(QString dev_name)$/;"	f	class:VideoDevice
+VideoDevice	videodevice.h	/^class VideoDevice : public QObject$/;"	c
+buffer	videodevice.h	/^    struct buffer$/;"	s	class:VideoDevice
+buffers	videodevice.h	/^    buffer* buffers;$/;"	m	class:VideoDevice
+close_device	videodevice.cpp	/^int VideoDevice::close_device()$/;"	f	class:VideoDevice
+convert_yuv_to_rgb_buffer	processImage.cpp	/^int ProcessImage::convert_yuv_to_rgb_buffer(unsigned char *yuv, unsigned char *rgb, unsigned int width, unsigned int height)$/;"	f	class:ProcessImage
+convert_yuv_to_rgb_pixel	processImage.cpp	/^int ProcessImage::convert_yuv_to_rgb_pixel(int y, int u, int v)$/;"	f	class:ProcessImage
+dev_name	videodevice.h	/^    QString dev_name;$/;"	m	class:VideoDevice
+display_error	moc_videodevice.cpp	/^void VideoDevice::display_error(QString _t1)$/;"	f	class:VideoDevice
+display_error	processImage.cpp	/^void ProcessImage::display_error(QString err)$/;"	f	class:ProcessImage
+fd	videodevice.h	/^    int fd;$/;"	m	class:VideoDevice
+frame	processImage.h	/^    QImage *frame;$/;"	m	class:ProcessImage
+getStaticMetaObject	moc_processImage.cpp	/^const QMetaObject &ProcessImage::getStaticMetaObject() { return staticMetaObject; }$/;"	f	class:ProcessImage
+getStaticMetaObject	moc_videodevice.cpp	/^const QMetaObject &VideoDevice::getStaticMetaObject() { return staticMetaObject; }$/;"	f	class:VideoDevice
+get_frame	videodevice.cpp	/^int VideoDevice::get_frame(void **frame_buf, size_t* len)$/;"	f	class:VideoDevice
+index	videodevice.h	/^    int index;$/;"	m	class:VideoDevice
+init_device	videodevice.cpp	/^int VideoDevice::init_device()$/;"	f	class:VideoDevice
+init_mmap	videodevice.cpp	/^int VideoDevice::init_mmap()$/;"	f	class:VideoDevice
+label	processImage.h	/^    QLabel *label;$/;"	m	class:ProcessImage
+len	processImage.h	/^    unsigned int len;$/;"	m	class:ProcessImage
+length	videodevice.h	/^        size_t length;$/;"	m	struct:VideoDevice::buffer
+main	main.cpp	/^int main(int argc,char *argv[])$/;"	f
+metaObject	moc_processImage.cpp	/^const QMetaObject *ProcessImage::metaObject() const$/;"	f	class:ProcessImage
+metaObject	moc_videodevice.cpp	/^const QMetaObject *VideoDevice::metaObject() const$/;"	f	class:VideoDevice
+n_buffers	videodevice.h	/^    unsigned int n_buffers;$/;"	m	class:VideoDevice
+open_device	videodevice.cpp	/^int VideoDevice::open_device()$/;"	f	class:VideoDevice
+p	processImage.h	/^    uchar * p;$/;"	m	class:ProcessImage
+paintEvent	processImage.cpp	/^void ProcessImage::paintEvent(QPaintEvent *)$/;"	f	class:ProcessImage
+painter	processImage.h	/^    QPainter *painter;$/;"	m	class:ProcessImage
+pp	processImage.h	/^    uchar *pp;$/;"	m	class:ProcessImage
+qt_meta_data_ProcessImage	moc_processImage.cpp	/^static const uint qt_meta_data_ProcessImage[] = {$/;"	v	file:
+qt_meta_data_VideoDevice	moc_videodevice.cpp	/^static const uint qt_meta_data_VideoDevice[] = {$/;"	v	file:
+qt_meta_stringdata_ProcessImage	moc_processImage.cpp	/^static const char qt_meta_stringdata_ProcessImage[] = {$/;"	v	file:
+qt_meta_stringdata_VideoDevice	moc_videodevice.cpp	/^static const char qt_meta_stringdata_VideoDevice[] = {$/;"	v	file:
+qt_metacall	moc_processImage.cpp	/^int ProcessImage::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:ProcessImage
+qt_metacall	moc_videodevice.cpp	/^int VideoDevice::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:VideoDevice
+qt_metacast	moc_processImage.cpp	/^void *ProcessImage::qt_metacast(const char *_clname)$/;"	f	class:ProcessImage
+qt_metacast	moc_videodevice.cpp	/^void *VideoDevice::qt_metacast(const char *_clname)$/;"	f	class:VideoDevice
+qt_static_metacall	moc_processImage.cpp	/^void ProcessImage::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:ProcessImage
+qt_static_metacall	moc_videodevice.cpp	/^void VideoDevice::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:VideoDevice
+rs	processImage.h	/^    int rs;$/;"	m	class:ProcessImage
+start	videodevice.h	/^        void * start;$/;"	m	struct:VideoDevice::buffer
+start_capturing	videodevice.cpp	/^int VideoDevice::start_capturing()$/;"	f	class:VideoDevice
+staticMetaObject	moc_processImage.cpp	/^const QMetaObject ProcessImage::staticMetaObject = {$/;"	m	class:ProcessImage	file:
+staticMetaObject	moc_videodevice.cpp	/^const QMetaObject VideoDevice::staticMetaObject = {$/;"	m	class:VideoDevice	file:
+staticMetaObjectExtraData	moc_processImage.cpp	/^const QMetaObjectExtraData ProcessImage::staticMetaObjectExtraData = {$/;"	m	class:ProcessImage	file:
+staticMetaObjectExtraData	moc_videodevice.cpp	/^const QMetaObjectExtraData VideoDevice::staticMetaObjectExtraData = {$/;"	m	class:VideoDevice	file:
+stop_capturing	videodevice.cpp	/^int VideoDevice::stop_capturing()$/;"	f	class:VideoDevice
+timer	processImage.h	/^    QTimer *timer;$/;"	m	class:ProcessImage
+unget_frame	videodevice.cpp	/^int VideoDevice::unget_frame()$/;"	f	class:VideoDevice
+uninit_device	videodevice.cpp	/^int VideoDevice::uninit_device()$/;"	f	class:VideoDevice
+vd	processImage.h	/^    VideoDevice *vd;$/;"	m	class:ProcessImage
+~ProcessImage	processImage.cpp	/^ProcessImage::~ProcessImage()$/;"	f	class:ProcessImage
